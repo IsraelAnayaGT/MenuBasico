@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: #1F9B47;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 12px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 11px;
+}
+nav a:hover{
+    color: #C98DC0;
+}
+
+@media (max-width: 680px) {
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10 0px;
+    }
+}
